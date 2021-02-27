@@ -55,5 +55,11 @@
          "context_set": ""
         }
         
+        {"tag": "youtube",
+         "patterns": ["open youtube", "start youtube"],
+         "responses": [webbrowser.open("youtube.com")],
+         "context_set": ""
+        },
+        
    ]
 }
