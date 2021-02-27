@@ -18,7 +18,8 @@
          "patterns": ["what is your name", "what should I call you", "whats your name?","who are you?","what are you?","name?"],
          "responses": ["I am the Expresso-Bot!"],
          "context_set": ""
-        },
+        }
+        ,
         {"tag": "help",
          "patterns": ["I need help", "Pls help me", "Calling for help"],
          "responses": ["How can I help you?","Whom do you want to call for help?"],
@@ -52,6 +53,11 @@
         {"tag": "help-women/child",
          "patterns": ["I'm being harassed", "Child abuse", "Rape","Someone is following me"],
          "responses": ["Helpline Number: \n 1091 \n 181"],
+         "context_set": ""
+        },        
+        {"tag": "music",
+         "patterns": ["Can you reccomend some songs?", "Any good songs?","Tell me some song names","tell me good song","any nice songs","nice tunes I can listen too?","good songs i can listen to?","best song","wonderful song","music please","give me some songs to hear","other song?","any other songs?","Another song pls"],
+         "responses": ["“Long Road Home,” Oneohtrix Point Never","“Uwrongo,” Prince Kaybee, Shimza, Black Motion, Ami Faku","“Back Door,” Stray Kids","“WAP,” Cardi B feat. Megan Thee Stallion","“People I’ve Been Sad,” Christine and the Queens","'Drivers License' Olivia Rodrigo"],
          "context_set": ""
         }
         
