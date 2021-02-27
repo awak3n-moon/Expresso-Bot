@@ -65,7 +65,7 @@ except:
     output = numpy.array(output)
 
     with open("data.pickle","rb") as f:
-        pickle.dump(words, labels, training, output), f)
+        pickle.dump(words, labels, training, output), f))
 
 #tensorflow.reset_default_graph()
 from tensorflow.python.framework import ops
