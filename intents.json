@@ -25,27 +25,27 @@
          "context_set": ""
         },
         {"tag": "help-fire",
-         "patterns": ["Help me, there is a fire", "fire", "Call fire fighters","Fire brigade"],
+         "patterns": ["There is a fire", "Call fire fighters","Fire brigade"],
          "responses": ["Helpline Number: \n 101"],
          "context_set": ""
         },
         {"tag": "help-ambulance",
-         "patterns": ["Help me, there is an accident", "I am dying", "Call the hospital","Ambulance"],
+         "patterns": ["There is an accident", "I am dying", "Call the hospital","Ambulance","I have hurt myself","Extreme pain","I have a disease","High fever"],
          "responses": ["Helpline Number: \n 102"],
          "context_set": ""
         },
         {"tag": "help-police",
-         "patterns": ["Help me, there is a robbery", "I am being attacked", "Call the police","Police Station","Theif"],
+         "patterns": ["There is a robbery", "I am being attacked", "Call the police","Police Station","Theif","I heard gun shots","I am being kidnapped"],
          "responses": ["Helpline Number: \n 100"],
          "context_set": ""
         },
         {"tag": "help-suicide",
-         "patterns": ["I dont want to live", "I want to die", "suicide","How to kill myself"],
+         "patterns": ["I dont want to live", "I want to die", "suicide","How to kill myself","The world is a cruel place"],
          "responses": ["If you're having any suicidal thoughts, please seek help immediately. Talk about what bothers you and what can be done to solve the problem. also if you need help to overcome depression , heartbreak , failure , stress : You can call one of the following number: It is free. and you can keep your name hidden. 1800-599-0019"],
          "context_set": ""
         },
         {"tag": "help-covid",
-         "patterns": ["I think I have Covid", "Coronavirus", "Medicine for Covid-19","How to battle corona"],
+         "patterns": ["I think I have Covid", "Coronavirus", "I need medicine for Covid-19","How to battle corona"],
          "responses": ["Helpline Number: \n +91-11-23978046 \n 104 \n 1075 \n Mail: \n ncov2019@gov.in"],
          "context_set": ""
         },
