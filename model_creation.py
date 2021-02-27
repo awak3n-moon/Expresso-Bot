@@ -8,9 +8,13 @@ import tensorflow
 import random
 import json
 import pickle
+import pandas as pd
 
-with open("intents.json") as file:
-    data = json.load(file)
+data = pd.read_json("intents.json")
+
+
+#with open("intents.json") as file:
+    #data = json.load(file)
 
 try:
     with open("data.pickle", "rb") as f:
