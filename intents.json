@@ -53,13 +53,7 @@
          "patterns": ["I'm being harassed", "Child abuse", "Rape","Someone is following me"],
          "responses": ["Helpline Number: \n 1091 \n 181"],
          "context_set": ""
-        }
-        
-        {"tag": "youtube",
-         "patterns": ["open youtube", "start youtube"],
-         "responses": [webbrowser.open("youtube.com")],
-         "context_set": ""
-        },
-        
+        }        
+                
    ]
 }
