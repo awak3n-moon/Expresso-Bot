@@ -72,7 +72,7 @@ net = tflearn.regression(net)
 
 model = tflearn.DNN(net)
 
-model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
+model.fit(training, output, n_epoch=100, batch_size=8, show_metric=True)
 model.save("model.tflearn")
 
 def bag_of_words(s, words):
@@ -90,11 +90,15 @@ def bag_of_words(s, words):
 
 import tkinter
 from tkinter import *
+import pyttsx3
 
+#engine = pyttsx3.init()
+#engine.setProperty('rate', 90)
 
 def send():
     msg = EntryBox.get("1.0",'end-1c')
-    EntryBox.delete("0.0",END)    
+    EntryBox.delete("0.0",END)   
+    
 
     results = model.predict([bag_of_words(msg, words)])
     results_index = numpy.argmax(results)
@@ -103,7 +107,7 @@ def send():
     for tg in data["intents"]:
         if tg['tag'] == tag:
             responses = tg['responses']
-
+            
     if msg != '':
         ChatLog.config(state=NORMAL)
         ChatLog.insert(END, "You: " + msg + '\n\n')
@@ -111,10 +115,21 @@ def send():
 
         res = random.choice(responses)
         ChatLog.insert(END, "Bot: " + res + '\n\n')
+        
 
         ChatLog.config(state=DISABLED)
         ChatLog.yview(END)
 
+        engine = pyttsx3.init()
+        voices = engine.getProperty('voices')
+        engine.setProperty('rate', 125)
+        engine.setProperty('voice', voices[1].id)
+        engine.say(res)
+        engine.runAndWait()
+
+        
+
+        
 base = Tk()
 base.title("Chat-Bot")
 base.geometry("600x500")
@@ -144,3 +159,8 @@ EntryBox.place(x=128, y=401, height=90, width=448)
 SendButton.place(x=6, y=401, height=90)
 
 base.mainloop()
+
+
+
+
+
