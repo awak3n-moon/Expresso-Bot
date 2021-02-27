@@ -36,7 +36,7 @@
          "context_set": ""
         },
         {"tag": "help-police",
-         "patterns": ["There is a robbery", "I am being attacked", "Call the police","Police Station","Theif","I heard gun shots","I am being kidnapped"],
+         "patterns": ["There is a robbery", "I am being attacked", "Call the police","Police Station","Theif","I heard gun shots","I am being kidnapped","Stealing","lost my item","someone stole my watch","I lost my wallet"],
          "responses": ["Helpline Number: \n 100"],
          "context_set": ""
         },
@@ -51,7 +51,7 @@
          "context_set": ""
         },
         {"tag": "help-women/child",
-         "patterns": ["I'm being harassed", "Child abuse", "Rape","Someone is following me"],
+         "patterns": ["I'm being harassed", "Child abuse", "Rape","Someone is following me","stalker"],
          "responses": ["Helpline Number: \n 1091 \n 181"],
          "context_set": ""
         },        
