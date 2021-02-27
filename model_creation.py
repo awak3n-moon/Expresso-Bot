@@ -9,6 +9,7 @@ import random
 import json
 import pickle
 import pandas as pd
+#import speech_recognition as sr
 
 data = pd.read_json("intents.json")
 
@@ -117,5 +118,6 @@ def chat():
                 responses = tg['responses']
 
         print(random.choice(responses))
+
 
 chat()
