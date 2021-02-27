@@ -18,6 +18,41 @@
          "patterns": ["what is your name", "what should I call you", "whats your name?","who are you?","what are you?","name?"],
          "responses": ["I am the Expresso-Bot!"],
          "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["I need help", "Pls help me", "Calling for help"],
+         "responses": ["How can I help you?","Whom do you want to call for help?"],
+         "context_set": ""
+        },
+        {"tag": "help-fire",
+         "patterns": ["Help me, there is a fire", "fire", "Call fire fighters","Fire brigade"],
+         "responses": ["Helpline Number: \n 101"],
+         "context_set": ""
+        },
+        {"tag": "help-ambulance",
+         "patterns": ["Help me, there is an accident", "I am dying", "Call the hospital","Ambulance"],
+         "responses": ["Helpline Number: \n 102"],
+         "context_set": ""
+        },
+        {"tag": "help-police",
+         "patterns": ["Help me, there is a robbery", "I am being attacked", "Call the police","Police Station","Theif"],
+         "responses": ["Helpline Number: \n 100"],
+         "context_set": ""
+        },
+        {"tag": "help-suicide",
+         "patterns": ["I dont want to live", "I want to die", "suicide","How to kill myself"],
+         "responses": ["If you're having any suicidal thoughts, please seek help immediately. Talk about what bothers you and what can be done to solve the problem. also if you need help to overcome depression , heartbreak , failure , stress : You can call one of the following number: It is free. and you can keep your name hidden. 1800-599-0019"],
+         "context_set": ""
+        },
+        {"tag": "help-covid",
+         "patterns": ["I think I have Covid", "Coronavirus", "Medicine for Covid-19","How to battle corona"],
+         "responses": ["Helpline Number: \n +91-11-23978046 \n 104 \n 1075 \n Mail: \n ncov2019@gov.in"],
+         "context_set": ""
+        },
+        {"tag": "help-women/child",
+         "patterns": ["I'm being harassed", "Child abuse", "Rape","Someone is following me"],
+         "responses": ["Helpline Number: \n 1091 \n 181"],
+         "context_set": ""
         }
         
    ]
