@@ -42,7 +42,7 @@
         },
         {"tag": "help-suicide",
          "patterns": ["I dont want to live", "I want to die", "suicide","How to kill myself","The world is a cruel place"],
-         "responses": ["If you're having any suicidal thoughts, please seek help immediately. Talk about what bothers you and what can be done to solve the problem. also if you need help to overcome depression , heartbreak , failure , stress : You can call one of the following number: It is free. and you can keep your name hidden. 1800-599-0019"],
+         "responses": ["If you're having any suicidal thoughts, please seek help immediately. Talk about what bothers you and what can be done to solve the problem. Also if you need help to overcome depression , heartbreak , failure , stress : You can call one of the following number: It free and you can keep your name hidden. 1800-599-0019"],
          "context_set": ""
         },
         {"tag": "help-covid",
