@@ -36,7 +36,7 @@
          "context_set": ""
         },
         {"tag": "help-police",
-         "patterns": ["There is a robbery", "I am being attacked", "Call the police","Police Station","Theif","I heard gun shots","I am being kidnapped","Stealing","lost my item","someone stole my watch","I lost my wallet"],
+         "patterns": ["There is a robbery", "I am being attacked", "Call the police","Police Station","Thief","theft","I heard gun shots","I am being kidnapped","Stealing","lost my item","someone stole my watch","I lost my wallet"],
          "responses": ["Helpline Number: \n 100"],
          "context_set": ""
         },
