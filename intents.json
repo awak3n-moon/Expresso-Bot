@@ -1,0 +1,76 @@
+{"intents": [
+        {"tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","sup?","Hola"],
+        "responses": ["Hello!", "Hey!", "Hi there!"],
+        "context_set": ""
+        },
+        {"tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","See you soon!"],
+        "context_set": ""
+        },
+        {"tag": "thankyou",
+        "patterns": ["thanks", "Thank you", "thanks a lot"],
+        "responses": ["Welcome!", "Anytime :)", "Anything for you"],
+        "context_set": ""
+        },
+        
+        {"tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?","who are you?","what are you?","name?"],
+        "responses": ["I am the Expresso-Bot!"],
+        "context_set": ""           
+               
+        },
+        {"tag": "help-fire",
+        "patterns": ["There is a fire", "Call fire fighters","Fire brigade"],
+        "responses": ["Fire Dept Number: \n 101"],
+        "context_set": ""
+        },
+        {"tag": "help-ambulance",
+        "patterns": ["There is an accident", "I am dying", "Call the hospital","Ambulance","I have hurt myself","Extreme pain","I have a disease","High fever"],
+        "responses": ["Ambulance Number: \n 102"],
+        "context_set": ""
+        },
+        {"tag": "help-police",
+        "patterns": ["There is a robbery", "I am being attacked", "Call the police","Police Station","Thief","Theft","I heard gun shots","I am being kidnapped","Stealing","lost my item","someone stole my watch","I lost my wallet"],
+        "responses": ["Police Number: \n 100"],
+        "context_set": ""
+        },
+        {"tag": "help-suicide",
+        "patterns": ["I dont want to live", "I want to die", "suicide","How to kill myself","The world is a cruel place"],
+        "responses": ["If you're having any suicidal thoughts, please seek help immediately. Talk about what bothers you and what can be done to solve the problem. Also if you need help to overcome depression , heartbreak , failure , stress : You can call one of the following number: It's free and you can keep your name hidden. 1800-599-0019"],
+        "context_set": ""
+        },
+        {"tag": "help-covid",
+        "patterns": ["I think I have Covid", "Coronavirus", "I need medicine for Covid-19","How to battle corona"],
+        "responses": ["COVID Care Number: \n +91-11-23978046 \n 104 \n 1075 \n Mail: \n ncov2019@gov.in"],
+        "context_set": ""
+        },
+        {"tag": "help-women/child",
+        "patterns": ["I'm being harassed", "Child abuse", "Rape","Someone is following me","stalker"],
+        "responses": ["Anti-Abuse Number: \n 1091 \n 181"],
+        "context_set": ""
+        },
+        {"tag": "books",
+        "patterns": ["books to read", "nice books?","any good books","tell me a good book to read","any novels that are good","excellent novels","intersting book","inspiring book","good books to read","something intersting to read","can you tell me some book to read"],
+        "responses": ["To Kill a Mockingbird, by Harper Lee","1984, by George Orwell","Harry Potter, by J.K. Rowling","The Lord of the Rings, by J.R.R. Tolkien","The Great Gatsby, by F. Scott Fitzgerald","Pride and Prejudice, by Jane Austen","The Diary Of A Young Girl, by Anne Frank","The Book Thief, by Markus Zusak","The Hobbit, by J.R.R. Tolkien","Little Women, by Louisa May Alcott"],
+        "context_set": ""
+        },
+        {"tag": "movies",
+        "patterns": ["nice movies to watch", "good movies","awesome movies","tell me a nice movie to watch","good film","nice film to watch","intersting movie","action movie","adventure movie","best movie","excellent movie"],
+        "responses": ["Parasite (2019)","Titanic (1997)","Dilwale Dulhania Le Jayenge (1995)","Scream (1996)","Slumdog Millionare (2008)","Black Panther (2018)","Pride and Prejudice (2005)","Jurassic Park (1993)","The Dark Knight (2008)","Before Sunrise (1995)"],
+        "context_set": ""
+        },
+        {"tag": "TV-shows",
+         "patterns": ["nice shows to watch", "good shows","awesome TV shows","tell me a nice tv show to watch","good tv show","nice film to web series","intersting webseries","action series","adventure tv show","best tv show","excellent web series"],
+         "responses": ["Dickinson: Season 2","Lupin: Season 1","Resident Alien: Season 1","Cobra Kai: Season 3","Breaking Bad","Blue Planet II","Chernobyl","Cosmos","Game of Thrones","Fullmetal Alchemist: Brotherhood"],
+         "context_set": ""
+        },
+        {"tag": "music",
+        "patterns": ["Can you reccomend some songs?","Any good songs?","Tell me some song names","tell me good song","any nice songs","nice tunes I can listen too?","good songs i can listen to?","best song","wonderful song","music please","give me some songs to hear","other song?","any other songs?","Another song pls"],
+        "responses": ["'Long Road Home' Oneohtrix Point Never","'Uwrongo' Prince Kaybee, Shimza, Black Motion, Ami Faku","'Back Door' Stray Kids","'WAP' Cardi B feat. Megan Thee Stallion","'People I’ve Been Sad' Christine and the Queens","'Drivers License' Olivia Rodrigo"],
+        "context_set": ""
+        }
+       
+   ]
+}
